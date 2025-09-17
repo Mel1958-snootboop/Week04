@@ -48,5 +48,17 @@
 }
  
 .lightText {
-  color: #2b2b2b;
+  color: #000000;
+}
+
+.backgroundcolor {
+  background-color: #a9fff5;
+}
+
+.backgroundcolor2 {
+  background-color: #e100ff;
+}
+
+.center {
+  text-align: left;
 }
