@@ -51,12 +51,24 @@
   color: #000000;
 }
 
+.fontcolor {
+  color: #000000;
+}
+
 .backgroundcolor {
   background-color: #a9fff5;
 }
 
 .backgroundcolor2 {
-  background-color: #e100ff;
+  background-color: #00ff95;
+}
+
+.foregroundcolor {
+  color: #f200ff;
+}
+
+.foregroundcolor2 {
+  color: #8400ff;
 }
 
 .center {
