@@ -21,7 +21,7 @@
  
 // Runs at build time to fetch data needed to pre-render this page.
 // Calls `getSortedPostsData()` to read and sort post metadata and
-// returns the posts as `allPostsData` inside `props` for the page component
+// returns the posts as `allPostsData` inside `props` for the page component.
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
   return {
