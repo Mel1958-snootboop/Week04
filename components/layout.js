@@ -3,7 +3,6 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-import { clsx } from 'clsx';
  
 //It provides a consistent structure and style for all pages in the site.
 const name = 'Melanie';
