@@ -54,3 +54,11 @@ export default function Post({ postData }) {
 
 // `getStaticPaths` tells Next.js which dynamic routes to pre-render
 // based on the data returned by `getAllPostIds()`.
+
+export async function getStaticPaths() {
+  const paths = getAllPostIds();
+  return {
+    paths,
+    fallback: false,
+  };
+}
