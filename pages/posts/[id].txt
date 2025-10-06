@@ -22,7 +22,7 @@ export async function getStaticProps({ params }) {
 
   // `getPostData()` is async, so it returns a Promise that needs to be awaited.
   // Add the "await" keyword like this:
-  const postData = getPostData(params.id);
+  const postData = await getPostData(params.id);
  
   return {
     props: {

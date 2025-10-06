@@ -1,13 +1,23 @@
+//This component defines the overall layout and structure of the web pages in the Next.js application.
 import Head from 'next/head';
+
+// The Head component allows you to modify the <head> section of the HTML document.
 import Image from 'next/image';
+
+// The Image component optimizes images for better performance.
 import styles from './layout.module.css';
+
+// Importing CSS modules for scoped styling.
 import utilStyles from '../styles/utils.module.css';
+
+// Importing additional utility styles.
 import Link from 'next/link';
  
 //It provides a consistent structure and style for all pages in the site.
 const name = 'Melanie';
 export const siteTitle = 'Next.js Sample Website';
  
+// The Layout component wraps around the main content of each page, providing a consistent header, footer, and styling.
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
@@ -68,3 +78,4 @@ export default function Layout({ children, home }) {
     </div>
   );
 }
+// It conditionally renders different header content based on whether the current page is the homepage or a subpage.
