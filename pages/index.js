@@ -4,7 +4,7 @@
 // Imports the Layout component for consistent page structure and the siteTitle variable for setting the page title.
  import Layout, { siteTitle } from '../components/layout';
 
- import { getSortedList } from '../lib/data';
+ import { getSortedList } from '../lib/data/vaporwave/products';
  
 // Runs at build time to fetch data needed to pre-render this page.
 // Calls `getSortedPostsData()` to read and sort post metadata and
@@ -25,7 +25,9 @@ export default function Home({ allData }) {
         <Head>
         <title>{siteTitle}</title>
       </Head>
-        <h1>List of Shops</h1>
+        <h1>List of Contacs</h1>
+        <h2>List of Products</h2>
+        <h3>List of Vaporwave</h3>
         <div className="list-group">
             {allData.map(({ id, name }) => (
                 <Link key={id} href={`/${id}`}>
