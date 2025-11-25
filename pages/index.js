@@ -24,6 +24,8 @@ export default function Home({ allData }) {
     <Layout home>
         <Head>
         <title>{siteTitle}</title>
+        <title>{siteTitle}</title>
+        <title>{siteTitle}</title>
       </Head>
         <h1>List of Contacs</h1>
         <h2>List of Products</h2>
